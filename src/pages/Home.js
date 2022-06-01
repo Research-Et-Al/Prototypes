@@ -11,6 +11,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import MainCard from '../components/MainCard';
+import { Link } from 'react-router-dom'
 
 
 const customTheme = createTheme({
@@ -73,7 +74,7 @@ const Home = () => (
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small">View</Button>
+                    <Button size="small" component={Link} to="/blog">View</Button>
                     {/* <Button size="small">Edit</Button> */}
                   </CardActions>
                 </Card>

@@ -3,13 +3,13 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 
-export default function Footeer() {
+export default function Footer() {
   return (
     <footer>
       <Box
         px={{ xs: 3, sm: 10 }}
         py={{ xs: 5, sm: 10 }}
-        bgcolor="#7330D3"
+        bgcolor="black"
         backgroundImage= "linear-gradient(#2F0F58, #7330D3)"
         color="white"
       >
