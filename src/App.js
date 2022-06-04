@@ -7,7 +7,8 @@ import ResponsiveAppBar from './components/AppBar';
 import Login from "./pages/Login/Login"
 import Footer from "./components/Footer2";
 import Register from "./pages/Register/Register";
-import Blog from "./pages/Blog"
+import Blog from "./pages/Blog/Blog"
+import Landing from "./pages/Landing/Landing"
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +19,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/:id" element={<Post />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/land" element={<Landing />} />
       </Routes>
       <Footer style={{position:"fixed"}}/>
     </BrowserRouter>

@@ -20,10 +20,11 @@ export default function Blog() {
           alignItems: "center",
           justifyContent: "center",
           display: "flex",
-          backgroundColor: "black",
+          backgroundColor: "#121212",
           padding: "25rem",
           marginBottom: "-20rem",
         }}
+        class = "curve"
       >
         <Card
           variant="outlined"

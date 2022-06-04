@@ -16,7 +16,7 @@ import MainCard from '../../components/MainCard';
 const customTheme = createTheme({
     palette: {
       secondary: {
-        main: "#000",
+        main: "#121212",
         contrastText: "#fff"
       }
     }

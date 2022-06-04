@@ -9,7 +9,7 @@ export default function Footer() {
       <Box
         px={{ xs: 3, sm: 10 }}
         py={{ xs: 5, sm: 10 }}
-        bgcolor="black"
+        bgcolor="#121212"
         backgroundImage= "linear-gradient(#2F0F58, #7330D3)"
         color="white"
       >
