@@ -23,7 +23,7 @@ const customTheme = createTheme({
   },
 });
 
-const pages = ["Home", "About", "Blog"];
+const pages = ["Home", "About", "Blog", "Post", "Login", "Register"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const ResponsiveAppBar = () => {
