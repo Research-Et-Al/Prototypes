@@ -14,12 +14,12 @@ function App() {
     <BrowserRouter>
     <ResponsiveAppBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/:id" element={<Post />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/land" element={<Landing />} />
+        <Route path="/" element={<Landing />} />
       </Routes>
       <Footer style={{position:"fixed"}}/>
     </BrowserRouter>
