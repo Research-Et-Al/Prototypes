@@ -44,6 +44,8 @@ export default function Login() {
             display: "flex",
             justifyContent: "center",
             textAlign: "center",
+            height: "0.1vw",
+            paddingBottom: "2rem",
             boxShadow:
               "rgba(0, 0, 0, 0.16) 0px 2px 4px -1px, rgba(0, 0, 0, 0.114) 0px 4px 5px 0px, rgba(0, 0, 0, 0.094) 0px 1px 10px 0px",
           }}
