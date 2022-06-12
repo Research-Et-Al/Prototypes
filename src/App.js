@@ -9,6 +9,8 @@ import Footer from "./components/Footer2";
 import Register from "./pages/Register/Register";
 import Blog from "./pages/Blog/Blog"
 import Landing from "./pages/Landing/Landing"
+import TextEditor from "./pages/TextEditor/TextEditor"
+
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +21,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/:id" element={<Post />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/write" element={<TextEditor />} />
         <Route path="/" element={<Landing />} />
       </Routes>
       <Footer style={{position:"fixed"}}/>
